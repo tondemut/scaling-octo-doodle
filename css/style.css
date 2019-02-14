@@ -149,7 +149,7 @@ a img {
 
 .section-footer i {
 	font-size: 30px;
-	color: #A79A74;
+	color: #78a22f;
 	padding: 10px;
 }
 
@@ -166,7 +166,7 @@ a img {
 }
 .presentation h1 {
 	font-size: 50px;
-	color: #A79A74;
+	color: #78a22f;
 }
 
 .presentation h2 {
@@ -192,7 +192,7 @@ a img {
 
 /* PL & GR are exclusive values for coloring text in this block. */
 .presentation pl {
-	color: #A79A74;
+	color: #78a22f;
 }
 
 .presentation gr {
@@ -223,7 +223,7 @@ a img {
 }
 
 .services-bordered h4 {
-	color: #A79A74;
+	color: #78a22f;
 	font-size: 16px;
 }
 
@@ -233,8 +233,8 @@ a img {
 
 .btn-theme {
 	color: #fff;
-	background-color: #A79A74;
-	border-color: #A79A74;
+	background-color: #78a22f;
+	border-color: #78a22f;
 }
 
 .btn-transparent {
@@ -390,7 +390,7 @@ sup {
 }
 
 .border {
-	border-top: 4px solid #A79A74;
+	border-top: 4px solid #78a22f;
 }
 
 .highlight {
@@ -418,7 +418,7 @@ sup {
 }
 
 .blog-list .btitle:hover {
-	color: #A79A74;
+	color: #78a22f;
 }
 
 .blog-list img {
@@ -448,7 +448,7 @@ sup {
 }
 
 .blog-post h5 a:hover {
-	color: #A79A74;
+	color: #78a22f;
 }
 
 .blog-post .sep {
@@ -464,7 +464,7 @@ sup {
 }
 
 .blog-post a {
-	color: #A79A74;
+	color: #78a22f;
 }
 
 .blog-post a:hover {
@@ -510,7 +510,7 @@ sup {
 }
 
 .comments p a {
-	color: #A79A74;
+	color: #78a22f;
 }
 
 .comments p {
