@@ -63,7 +63,7 @@
   <div class="container">
     <div class="row mt3 presentation">
       <div class="centered">
-        <i class="icon ion-ios7-paperplane-outline large-icon"></i>
+          <i><img src="img/skindeep-icon.png" alt="Skin Deep Icon"></i>
         <h1>CONTACT US</h1>
         <hr>
       </div>
@@ -128,6 +128,11 @@
       </div>
     </div>
     <!-- /row -->
+    <div class="row">
+      <div class="col-lg-12 col-md-12">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2389.807097968471!2d-6.109875684166969!3d53.203375679949374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4867a86fbd0ed503%3A0xa08554e1c19f7498!2s7+Florence+Rd%2C+Bray%2C+Co.+Wicklow%2C+A98+KT68%2C+Ireland!5e0!3m2!1sen!2szw!4v1550528015393"width="100%" height="320px"  frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>  
   </div>
   
   <section id="contact" class="section-bg-color ">
@@ -186,6 +191,23 @@
       </div>
     </div>
   </div>
+
+  <script type="text/javascript">
+
+    function initialize() {
+    
+      var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+    
+      // Resize stuff...
+      google.maps.event.addDomListener(window, "resize", function() {
+        var center = map.getCenter();
+        google.maps.event.trigger(map, "resize");
+        map.setCenter(center); 
+      });
+    
+    }
+    
+    </script>
   
   
   
