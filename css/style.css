@@ -174,12 +174,20 @@ a img {
 
 .pilisi {
   width: 80%;
-  margin: auto;
+	margin: auto;
+	padding: 30px 0;
 }
 
-.green li {
-  color: #23BE2D;
+.pilisi .nav-pills > li {
+	color: #23BE2D;
 }
+
+.pilisi .nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+	color: #fff;
+	background: #23BE2D;
+}
+
 
 .float{
   position: fixed;
